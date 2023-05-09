@@ -1,0 +1,9 @@
+export {default as Header} from './Header/Header';
+export {default as Home} from '../Pages/Home/Home';
+export {default as Container} from './Container/Container';
+export {default as Footer} from './Footer/Footer';
+export {default as Hero} from './Hero/Hero';
+export {default as Products} from './Products/Products';
+export {default as Product} from './Product/Product';
+export {default as seeMore} from './seeMore/seeMore';
+export {default as Most} from './Most/Most';

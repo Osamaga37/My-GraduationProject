@@ -1,0 +1,27 @@
+import { useState } from "react"; 
+
+
+const [active, setactive] = useState(1);    
+const [data, setdata] = useState([]);
+const [loading, setloading] = useState(false);
+const getPosts = async () => {
+    setloading(true);
+    const response = await fetch("products.json");
+    const json = await response.json();
+    setdata(json?Filter((post) => post.id <= 10));
+    setloading(false);
+};
+const onChange = (e) => {
+  console.log(e.target.value);
+};
+//////////////////////////////////////////////////////////
+{data.map((product) => {
+<li key={product.id}>
+<img 
+  src={'images/products/${product.image}'}
+  alt={product.name}
+/>
+<h4></h4>
+<p></p>
+<p></p>
+</li>

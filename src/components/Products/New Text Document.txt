@@ -1,0 +1,359 @@
+// <div className="container">
+        // <h3>Products</h3>
+        // <div className="All-products">
+        // <div>
+        //     <img className="rect4" src={rect4} alt="rectangle"/>
+        //     <img className="shape" src={shape} alt="shape" />
+        //     <img className="vector" src={vector} alt="vector" />
+        //     <p className="product1">iPhone 9<span className="price1">85$</span></p>
+        //     <p className="description1">An apple mobile which is nothing like apple, An apple mobile which is nothing like apple</p>
+        // </div>
+        <Product />
+        /* <div>
+            <img className="rect5" src={rect5} alt="rectangle"/>
+            <img className="shape1" src={shape} alt="shape" />
+            <img className="vector1" src={vector} alt="vector" />
+            <p className="product2">iPhone 9<span className="price2">85$</span></p>
+            <p className="description2">Organic Cotton, Fair Trade quality</p>
+        </div>
+        <div>
+            <img className="rect6" src={rect6} alt="rectangle"/>
+            <img className="shape2" src={shape} alt="shape" />
+            <img className="vector2" src={vector} alt="vector" />
+            <p className="product3">iPhone 9<span className="price3">85$</span></p>
+            <p className="description3">Organic Cotton, Fair Trade quality</p>
+        </div>
+        <div>
+            <img className="rect7" src={rect7} alt="rectangle"/>
+            <img className="shape3" src={shape} alt="shape" />
+            <img className="vector3" src={vector} alt="vector" />
+            <p className="product4">Rounded neck - T shirt 100% Cotton<span className="price4">85$</span></p>
+            <p className="description4">Organic Cotton, Fair Trade quality</p>
+        </div> */
+        // </div>
+        // </div>
+        // <div className="section-products">
+        //     <div className="section-header">
+        //         <h4>Products</h4>
+        //     </div>
+        //     <div className="most-products">
+        //         <div className="product-wrapper">
+        //             <img className="product-image" src={rect4} alt="product-image" />
+        //             <div className="product-content">
+        //                 <h4 className="product-tittle">
+        //                     iPhone 9 <br />
+        //                     <span className="product-description">
+        //                         An apple mobile which is nothing like apple, An apple mobile which is nothing like apple
+        //                         </span>
+        //                 </h4>
+        //                 <p className="product-price">85</p>
+        //             </div>
+
+        //         </div>
+
+        //     </div>
+        // </div>
+/////////////////////////////////////////////////////////////////////////
+
+h3{
+    position: absolute;
+    width: 368px;
+    height: 59px;
+    left: 536px;
+    top: 338px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+}
+.All-products{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    bottom: 105%;
+    text-align: center;
+}
+.rect4{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 32px;
+    top: 540px;
+    border-radius: 16px;
+}
+/* .rect5{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 381px;
+    top: 540px;
+    border-radius: 16px;
+}
+.rect6{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 725px;
+    top: 540px;
+    border-radius: 16px;
+}
+.rect7{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 1070px;
+    top: 540px;
+    border-radius: 16px;
+} */
+.product1{
+    position: absolute;
+    width: 320px;
+    height: 20px;
+    left: 40px;
+    top: 860px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.price1{
+    position: absolute;
+    width: 34px;
+    height: 25px;
+    left: 265px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.75);
+}
+.description1{
+    position: absolute;
+    width: 320px;
+    height: 39px;
+    left: 36px;
+    top: 900px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* .product2{
+    position: absolute;
+    width: 320px;
+    height: 20px;
+    left: 382px;
+    top: 860px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.price2{
+    position: absolute;
+    width: 34px;
+    height: 25px;
+    left: 265px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.75);
+}
+.product3{
+    position: absolute;
+    width: 320px;
+    height: 20px;
+    left: 732px;
+    top: 860px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.price3{
+    position: absolute;
+    width: 34px;
+    height: 25px;
+    left: 265px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.75);
+}
+.product4{
+    position: absolute;
+    width: 320px;
+    height: 20px;
+    left: 1078px;
+    top: 860px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.price4{
+    position: absolute;
+    width: 34px;
+    height: 25px;
+    left: 265px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.75);
+}
+.description2{
+    position: absolute;
+    width: 320px;
+    height: 39px;
+    left: 382px;
+    top: 900px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.description3{
+    position: absolute;
+    width: 320px;
+    height: 39px;
+    left: 732px;
+    top: 900px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.description4{
+    position: absolute;
+    width: 320px;
+    height: 39px;
+    left: 1078px;
+    top: 900px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+} */
+.shape{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 305px;
+    top: 560px;
+    background: #FFFFFF;
+    border-radius: 21px;
+}
+.vector{
+    position: absolute;
+    left: 311px;
+    top: 568px;
+    bottom: 58.32%;
+}
+/* .shape1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 655px;
+    top: 560px;
+    background: #FFFFFF;
+    border-radius: 21px;
+}
+.vector1{
+    position: absolute;
+    left: 661px;
+    top: 568px;
+    bottom: 58.32%;
+}
+.shape2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1000px;
+    top: 560px;
+    background: #FFFFFF;
+    border-radius: 21px;
+}
+.vector2{
+    position: absolute;
+    left: 1006px;
+    top: 568px;
+    bottom: 58.32%;
+}
+.shape3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1345px;
+    top: 560px;
+    background: #FFFFFF;
+    border-radius: 21px;
+}
+.vector3{
+    position: absolute;
+    left: 1351px;
+    top: 568px;
+    bottom: 58.32%;
+} */
+/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
+const mostPopularProducts = [
+        {id: "product_0", image: rect4, title:"iphone 9", description: "An apple mobile which is nothing like apple, An apple mobile which is nothing like apple", price: "85$" }
+    ]
+
+    const Cards = mostPopularProducts.map(Card =>{
+       return <Product image={Product.image} title={Product.title} description={Product.description} price={Product.price} />
+    })
+{Cards}
+                {mostPopularProducts[0].title}
+//////////////////////////////////
+///////////////////
+/////////////////
+<Product image={rect4} icon={MdFavoriteBorder} title="iPhone 9" description="An apple mobile which is nothing like apple, An apple mobile which is nothing like apple" price="85$" />
+                <Product image={rect5} icon={MdFavoriteBorder} title="iPhone 9" description="Organic Cotton, Fair Trade quality" price="85$" />
+                <Product image={rect6} icon={MdFavoriteBorder} title="iPhone 9" description="Organic Cotton, Fair Trade quality" price="85$" />
+                <Product image={rect7} icon={MdFavoriteBorder} title="Rounded neck - T shirt 100% Cotton" description="Organic Cotton, Fair Trade quality" price="85$" />
+                
+                <Product image={rect4} icon={MdFavoriteBorder} title="iPhone 9" description="An apple mobile which is nothing like apple, An apple mobile which is nothing like apple" price="85$" />
+                <Product image={rect5} icon={MdFavoriteBorder} title="iPhone 9" description="Organic Cotton, Fair Trade quality" price="85$" />
+                <Product image={rect6} icon={MdFavoriteBorder} title="iPhone 9" description="Organic Cotton, Fair Trade quality" price="85$" />
+                <Product image={rect7} icon={MdFavoriteBorder} title="Rounded neck - T shirt 100% Cotton" description="Organic Cotton, Fair Trade quality" price="85$" />
+

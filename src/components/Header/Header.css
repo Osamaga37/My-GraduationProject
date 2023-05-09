@@ -1,0 +1,36 @@
+h1{
+    color: #FE8A00;
+    position: absolute;
+    width: 254px;
+    height: 40px;
+    left: 114.55px;
+    top: 0px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+}
+h1 span{
+    color: #F61B5A;
+}
+.logo{
+    position: absolute;
+    width: 54.55px;
+    height: 52px;
+    left: 30px;
+    top: 17px;
+}
+
+.HiUser{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 1220px;
+    right: 40.83%;
+    top: 30px;
+    border: 0cm;
+    color: #5B6871;
+    background: #5B6871;
+    background-color: rgb(255, 255, 255);
+}

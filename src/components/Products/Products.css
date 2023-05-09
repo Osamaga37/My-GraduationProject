@@ -1,0 +1,25 @@
+.section-wrapper{
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 1%;
+    padding: 1px; */
+    margin-top: 540px;
+}
+.section-header h4{
+    position: absolute;
+    width: 368px;
+    height: 59px;
+    left: 536px;
+    top: 446px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+}
+.most-popular-products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

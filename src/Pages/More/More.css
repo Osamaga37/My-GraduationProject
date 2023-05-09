@@ -1,0 +1,32 @@
+.many-products{
+    position: absolute;
+    width: 98%;
+    margin-top: 30%;
+    bottom: 10px;
+}
+.many-products1{
+    position: absolute;
+    width: 98%;
+    margin-top: 5.5%;
+    top: 1px;
+}
+.many-products2{
+    position: absolute;
+    width: 98%;
+    margin-top: 5.5%;
+    top: 435px;
+}
+.section-header-all h4{
+    position: absolute;
+    width: 368px;
+    height: 59px;
+    left: 536px;
+    top: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+}

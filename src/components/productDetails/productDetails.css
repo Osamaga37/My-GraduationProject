@@ -1,0 +1,55 @@
+.all-details{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-details-head{
+    position: absolute;
+    width: 423.54px;
+    height: 59.66px;
+    left: calc(50% - 423.54px/2 + 359.19px);
+    top: calc(50% - 59.66px/2 - 535.4px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.022em;
+    color: #252C32;
+}
+.product-details-des{
+    position: absolute;
+    width: 351.57px;
+    height: 149.15px;
+    left: calc(50% - 351.57px/2 + 323.2px);
+    top: calc(50% - 149.15px/2 - 299.25px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    color: #252C32;
+}
+.product-details-img{
+    position: absolute;
+    width: 719.75px;
+    height: 815.34px;
+    left: calc(50% - 719.75px/2 - 276.13px);
+    top: calc(50% - 815.34px/2 - 197.33px);
+}
+.product-details-price{
+    position: absolute;
+    width: 161.94px;
+    height: 59.66px;
+    left: calc(50% - 161.94px/2 + 228.39px);
+    top: calc(50% - 59.66px/2 - 473.25px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.022em;
+    color: #252C32;
+}

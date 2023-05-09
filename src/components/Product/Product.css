@@ -1,0 +1,51 @@
+.most-popular-product{
+    flex: 1 25%;
+}
+.product-wrapper{
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 10%; */
+    padding: 3%;
+    margin-top: 30px;
+}
+.most-popular-image{
+    position: relative;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.most-popular-product-content{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.most-popular-product-title span{
+    position: absolute;
+    width: 320px;
+    height: 39px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.product-image{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 253px;
+    top: 20px;
+    background: #ffffff;
+    border-radius: 21px;
+}
+.love-icon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 8px;
+    top: 10px;
+}
